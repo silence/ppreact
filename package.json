@@ -1,0 +1,26 @@
+{
+  "name": "ppreact",
+  "version": "0.0.1",
+  "description": "implement a tiny react which name ppreact",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silence/ppreact.git"
+  },
+  "author": "leere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silence/ppreact/issues"
+  },
+  "homepage": "https://github.com/silence/ppreact#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4"
+  }
+}
