@@ -1,12 +1,11 @@
-const webpack = require('webpack')
 const path = require('path')
 
-const rootpath = path.resolve(__dirname)
+const rootPath = path.resolve(__dirname)
 
 module.exports = {
-    entry: path.resolve(rootpath, 'test', 'index.js'),
+    entry: path.resolve(rootPath, 'test', 'index.js'),
     mode: 'development',
-    devtools: 'inline-source-map',
+    devtool: 'inline-source-map',
     devServer: {
         contentBase: './dist'
     },

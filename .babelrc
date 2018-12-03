@@ -8,10 +8,7 @@
       }
     ],
     [
-      "@babel/preset-react",
-      {
-        "pragma": "cpreact.createElement"
-      }
+      "@babel/preset-react"
     ]
   ]
 }
